@@ -20,6 +20,12 @@ The first version of the program will **ONLY** handle a folder that contains thr
 
 In the near future, I plan to improve this program to handle those instances. For now, however, use this for your simplest data folders.
 
+### In Development
+
+The iPython notebook in this repo is the place I am testing and writing code for what will become the new, more robust version. In this commit, the notebook returns the program to an erlier stage. The working program can be found on input line 61.
+
 ### How to Run this Program
+
+(for Inside Energy Reporters)
 
 **COMING SOON**
