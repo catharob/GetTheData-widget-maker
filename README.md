@@ -14,15 +14,13 @@ It links to a direct download of a CSV and an XLSX file, to a publicly viewable 
 
 ### Current Version
 
-The first version of the program will **ONLY** handle a folder that contains three items: the `README.md` file, the CSV file, and the XLSX file. 
+This version will handle a folder containing a README and multiple csv/xlsx pairs.
 
-**This means, reporters, that if you have a folder with *more than one data file* (for instance, if your story contained two graphs, and you therefore had to upload two CSV/XLSX file pairs), for now, you'll have to compile the widget code manually, as we did at [the training](https://github.com/InsideEnergy/IE-datarepo-training).**
+The user can input the URL of the folder in Inside Energy's `Data-for-stories` folder. The program will then prompt the user to enter the corresponding Google Sheets public viewing URL, and output the widget code to paste into WordPress.
 
-In the near future, I plan to improve this program to handle those instances. For now, however, use this for your simplest data folders.
+### Development
 
-### In Development
-
-The iPython notebook in this repo is the place I am testing and writing code for what will become the new, more robust version. In this commit, the notebook returns the program to an erlier stage. The working program can be found on input line 61.
+The iPython notebook in this repo is the place I am testing and writing code for the basic program and its improvements. The first version of the program can be found in input line 61. Currently the new version is at the very end of the notebook.
 
 ### How to Run this Program
 
